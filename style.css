@@ -18,7 +18,7 @@ body{
     width:1440px;
     max-width:100%;
     height:auto;
-    border:1px hidden green;
+    border:1px solid green;
     padding:30px;
 }
 
@@ -31,7 +31,7 @@ body{
 }
 
 #main-container{
-    border:1px hidden blue;
+    border:1px solid blue;
     max-width:100%;
     width:1500px;
     padding-left:20px;
@@ -44,7 +44,7 @@ body{
 
 
 .cards-div{
-    border:1px hidden red;
+    border:1px solid red;
     max-width:100%;
     width:350px;
     padding:2px;
@@ -66,7 +66,7 @@ img{
 .cards-div-img{
     width:345px;
     height:auto;
-    border:1px hidden blue;
+    border:1px solid blue;
     margin-bottom:20px;
 }
 

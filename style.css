@@ -48,7 +48,6 @@ body{
     max-width:100%;
     width:350px;
     height:auto;
-    padding:2px;
     display:flex;
     flex-direction:column;
     border-radius:5px;

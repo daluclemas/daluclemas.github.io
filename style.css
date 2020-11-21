@@ -47,6 +47,7 @@ body{
     border:1px hidden red;
     max-width:100%;
     width:350px;
+    padding:2px;
     height:auto;
     display:flex;
     flex-direction:column;

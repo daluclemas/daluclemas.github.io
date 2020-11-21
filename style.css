@@ -57,13 +57,14 @@ body{
 
 img{
     width:342px;
+    max-width:100%;
     height:auto;
     object-fit:cover;
 }
 
 /*container for the image / flag*/
 .cards-div-img{
-    width:200px;
+    width:345px;
     max-width:100%;
     height:auto;
     border:1px hidden blue;

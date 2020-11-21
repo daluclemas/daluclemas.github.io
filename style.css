@@ -64,7 +64,8 @@ img{
 
 /*container for the image / flag*/
 .cards-div-img{
-    width:345px;
+    /*width:345px;*/
+    max-width:100%;
     height:auto;
     border:1px solid blue;
     margin-bottom:20px;

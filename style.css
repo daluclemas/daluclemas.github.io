@@ -32,9 +32,10 @@ body{
 
 #main-container{
     border:1px solid blue;
-    max-width:100%;
-    width:1500px;
+    width:100%;
+    width:1300px;
     padding-left:20px;
+    padding-top:20px;
     margin-left:auto;
     margin-right:auto;
     display:grid;
@@ -45,8 +46,8 @@ body{
 
 .cards-div{
     border:1px solid red;
-    max-width:100%;
-    width:350px;
+    width:100%;
+    max-width:350px;
     padding:2px;
     height:auto;
     display:flex;
@@ -56,17 +57,19 @@ body{
 }
 
 img{
-    width:342px;
-    max-width:100%;
+    max-width:350px;
+    width:100%;
     height:auto;
     object-fit:cover;
 }
 
 /*container for the image / flag*/
 .cards-div-img{
-    /*width:345px;*/
-    max-width:100%;
+    max-width:345px;
+    width:100%;
     height:auto;
+    display:flex;
+    justify-content:center;
     border:1px solid blue;
     margin-bottom:20px;
 }
@@ -96,14 +99,14 @@ img{
         grid-template-columns:auto auto;
         margin-left:auto;
         margin-right:auto;
-        width:800px;
+        max-width:800px;
     }
 }
 
 @media only screen and (max-width:992px){
 #main-container{
-    width:375px;
-    max-width:100%;
+    max-width:375px;
+    /*max-width:100%;*/
     height:auto;
     border:1px hidden green;
     padding:10px;
@@ -119,8 +122,6 @@ img{
 
 img{
     width:200px;
-    margin-left:auto;
-    margin-right:auto;
 }
 
 }

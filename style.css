@@ -25,7 +25,7 @@ body{
 }
 
 #main-container{
-    border:1px solid blue;
+    border:1px hidden blue;
     width:100%;
     width:1300px;
     padding-left:20px;
@@ -39,7 +39,7 @@ body{
 
 
 .cards-div{
-    border:1px solid red;
+    border:1px hidden red;
     width:100%;
     max-width:350px;
     padding:2px;
@@ -64,7 +64,7 @@ img{
     height:auto;
     display:flex;
     justify-content:center;
-    border:1px solid blue;
+    border:1px hidden blue;
     margin-bottom:20px;
 }
 
@@ -102,7 +102,7 @@ img{
     max-width:375px;
     /*max-width:100%;*/
     height:auto;
-    border:1px solid green;
+    border:1px hidden green;
     padding:10px;
     display:flex;
     flex-direction:column;
@@ -115,7 +115,7 @@ img{
 }
 
 img{
-    width:200px;
+    width:250px;
 }
 
 }
